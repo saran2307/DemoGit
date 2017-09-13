@@ -20,6 +20,7 @@ public abstract class AppCompatPreferenceActivity extends PreferenceActivity {
 
     private AppCompatDelegate mDelegate;
         // upload from as 3.0
+        // new featuer added
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getDelegate().installViewFactory();
